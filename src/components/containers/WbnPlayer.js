@@ -25,6 +25,19 @@ const themeLight = {
 };
 
 const WbnPlayer = props => {
+
+    const nightModeCallback = () => {
+
+    }
+
+    const endCallback = () => {
+        
+    }
+
+    const progressCallback = () => {
+        
+    }
+
     return (
         <ThemeProvider theme={state.nightMode ? theme : themeLight}>
             <StyledWbnPlayer>
